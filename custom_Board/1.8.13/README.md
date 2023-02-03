@@ -7,7 +7,7 @@ for Atmel's SAMD21 processor .
 
 first add the following link to Arduino IDE Preferences on field (Additional Boards manager URLs)
 
-https://raw.githubusercontent.com/Israr-Engineering/PMM/main/custom_Board/package_PMM_index.json
+https://raw.githubusercontent.com/Israr-Engineering/PMM-05XX-CONVERTERS/main/custom_Board/package_PMM-05XX-CONVERTERS_index.json
 
 Then the core is available as a package in the Arduino IDE cores manager.
 Just open the "Boards Manager" and install the package called:
