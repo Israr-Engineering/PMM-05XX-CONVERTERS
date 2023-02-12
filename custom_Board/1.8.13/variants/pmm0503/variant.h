@@ -85,6 +85,20 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+#define PMM_12MHZIN              (18ul)  //PA14
+#define PMM_12MHZOUT             (19ul)  //PA15
+#define PMM_TerminationRes       (7ul)  //PA09 
+#define PMM_AREF                 (46ul)  //PA03 
+#define PMM_DO_SCSn              (21ul)  //PA18 : Digital output : Ethernet controller chip select command  
+#define PMM_INTn                 (4ul)   //PA04   
+#define PMM_ETH_Control          (14ul)   //PA21 
+#define PMM_RS485_SELECT         (2ul)  //PB08 
+#define PMM_HDPLX                (3ul)  //PB09
+#define PMM_SWCLK                (48ul)  //PA30
+#define PMM_SWDIO                (49ul)  //PA31 
+
+
+
 /*
  * Analog pins
  */

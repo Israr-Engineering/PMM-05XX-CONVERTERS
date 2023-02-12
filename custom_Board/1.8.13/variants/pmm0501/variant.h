@@ -85,6 +85,27 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+
+#define PMM_DO_FLASH_EN         (18ul)  //PA14 : Digital output : Flash Enable command
+#define PMM_DI_LossOfPower      (19ul)  //PA15 : Digital Input :loos of power 
+#define PMM_AREF                (46ul)  //PA03
+#define PMM_SCSn_I              (24ul)  //PA17
+#define PMM_OP2                 (23ul)  //PA19 
+#define PMM_OP3                 (13ul)  //PA20 
+#define PMM_S1                  (2ul)  //PB08 
+#define PMM_S2                  (3ul)  //PB09 
+#define PMM_INTn                (4ul)  //PA04   
+#define PMM_S3                  (5ul)  //PA05 
+#define PMM_S4                  (10ul)  //PA06 
+#define PMM_Ready               (11ul)  //PA07
+#define PMM_S5                  (31ul)  //PA27 
+#define PMM_S6                  (32ul)  //PA28 
+#define PMM_SWCLK               (48ul)  //PA30 
+#define PMM_SWDIO               (49ul)  //PA31 
+#define PMM_DO_ETH_RST          (15ul)  //PB02 : Digital output : Ethernet controller reset command
+#define PMM_SD_CS               (16ul)  //PB03 
+
+
 /*
  * Analog pins
  */

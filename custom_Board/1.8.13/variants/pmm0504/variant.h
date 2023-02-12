@@ -85,6 +85,11 @@ extern "C" unsigned int PINCOUNT_fn();
 #define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
+#define PMM_SWCLK                (48ul)  //PA30
+#define PMM_SWDIO                (49ul)  //PA31 
+
+
+
 /*
  * Analog pins
  */
